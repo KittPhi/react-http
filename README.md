@@ -1,11 +1,27 @@
 [ReactJS Tutorial - HTTP and React](https://www.youtube.com/watch?v=GTmjthNvrxY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=41)
 
+[github](https://github.com/gopinav/React-Tutorials)
+
 > React Components simply read props & states, then renders it to the UI.
 
 > To use data from a server, you would need to get the data into your
 > components props or state.
 > Axios is a great candidate as well as Fetch API
 
+### Get right into it:
+- npm start
+- open chrome dev-tools 'F12'
+
+PostForm.js: Get Request using axios and render the fetched data into React Component
+- enter: userid
+- enter: title
+- enter: body
+- submit
+
+using http://jsonplaceholder.typicode.com/posts for fake endpoints:
+
+
+## Instructions:
 npx create-react-app <react-http>
 
 npm i axios
